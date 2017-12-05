@@ -1,0 +1,18 @@
+# editorconfig.org
+
+root = true
+
+[*]
+# 编码
+charset = utf-8
+# 缩进以空格为2
+indent_size = 2
+# 缩进方式Wie空格
+indent_style = space
+# 结尾一空白行结束
+insert_final_newline = true
+# 去除换行收尾的空格
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
