@@ -141,18 +141,51 @@ header .top ul li a {
 
 /* 800px */
 @media only screen and (max-width: 50em) {
+  header .main .brand {
+    float: none;
+    display: block;
+    padding: 0;
+    margin: 1.5rem auto 0.5rem;
+    text-align: center;
+  }
+  header .main ul {
+    text-align: center;
+  }
+  header .main ul li {
+    border: none;
+  }
   header .top ul li a {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 }
 
 /* 481px - 800px */
 @media only screen and (min-width:30.062em) and (max-width: 50em) {
-
+  header .main ul li {
+    line-height: 3rem;
+  }
+  header .main ul li:first-child {
+    display: none;
+  }
+  header .main ul li a {
+    font-weight: normal;
+    padding: 0 0.5rem;
+  }
 }
 
 /* 480px */
 @media only screen and (max-width: 30em) {
+  header .main ul li {
+    line-height: 3rem;
+  }
+
+  header .main ul li:first-child {
+    display: none;
+  }
+  header .main ul li a {
+    font-weight: normal;
+    padding: 0 0.5rem;
+  }
   header .top .tel,
   header .top ul li:nth-child(3),
   header .top ul li:nth-child(4) {
